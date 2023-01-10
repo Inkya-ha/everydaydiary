@@ -1,11 +1,9 @@
 <?php
 session_start();
-
 $username = $_SESSION["EMAIL"];
 $date = htmlspecialchars($_POST['date'], ENT_QUOTES, "UTF-8");
 $title = htmlspecialchars($_POST['title'], ENT_QUOTES, "UTF-8");
 $body = htmlspecialchars($_POST['body'], ENT_QUOTES, "UTF-8");
-
 if (empty($_POST['date'])) {
     echo "Error: 未入力の項目があります";
     exit;
@@ -49,6 +47,15 @@ if ($stmt->execute()) {
     echo "投稿処理を完了することができませんでした";
 }
 
+/*ここにコメント書いてね
+おっしゃー荒らしてやるぜーーーーーーーーーーーーーー
+おおおおおおおおおおｗｗｗｗｗｗｗｗｗｗｗｗ
+まってgitにpushするからちょっとまってwwwwwwwwwwwwwwwwww
+gitにpushされる前に出来る限り俺らのコメントを残すんだ！
+やだｗｗｗｗｗｗｗｗ
 
 
-?>
+doremireです Twitterフォローしてね
+uruzunyaaと申します。このファイルは私が作りました。私の
+↑自作自演です共同開発(?)です
+*/
