@@ -1,0 +1,18 @@
+*{
+    font-family: "Noto Sans JP";
+    text-align: center;
+}
+body{
+    font-family: "Noto Sans JP";
+}
+
+.diarypost{
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 0px 0px 35px -5px #777777;
+    border-radius: 10px;
+}
+textarea{
+    width: 300px;
+    height: 500px;
+}

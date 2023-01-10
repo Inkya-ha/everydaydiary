@@ -14,7 +14,7 @@
             <hr>
         </div>
         <main class="form-signin w-100 m-auto">
-            <form>
+            <form method="POST" action="./registercheck">
                 <img class="mb-4" src="./image/favicon.png" alt="毎日日記くん" height="50" loading="lazy">
                 <div class="form-floating">
                     <input type="email" class="form-control" id="floatingInput" name="email" placeholder="name@example.com">
@@ -24,12 +24,8 @@
                     <input type="password" class="form-control" id="floatingPassword" name="password" placeholder="パスワード">
                     <label for="floatingPassword">パスワード</label>
                 </div>
-                <div class="form-floating">
-                    <input type="password" class="form-control" id="floatingPassword" name="repassword" placeholder="再確認パスワード">
-                    <label for="floatingPassword">再確認パスワード</label>
-                </div>
                 
-                <button class="w-100 btn btn-lg btn-primary" type="submit">ログイン</button>
+                <button class="w-100 btn btn-lg btn-primary" name="submit" type="submit">ログイン</button>
             </form>
             <p class="fs-6">既にアカウントをお持ちですか？<a href="./login">ログイン</a></p>
         </main>
